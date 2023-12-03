@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(175, 98, 98);
+}
+
+
+.FullNavigationBar {
+    display: flex;
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    height: 110px; /* hauteur */
+    font-family: 'Roboto mono';
+    font-size: 20px;
+    background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+    margin-bottom: 200px;
+
+}
+
+.FullNavigationBar a {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+    /*padding: 25px;*/
+    margin: 25px;
+    position: relative;
+}
+#accueil{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(4, 224, 150);
+}
+
+.FullNavigationBar a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px gold;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.FullNavigationBar a:hover:after{
+    transform: scaleX(1);
+}
+
+
+.FullNavigationBar a:hover{
+    transform: scale(1.1);
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+
+.ClasseName{
+    display: flex;
+    flex-direction: column; /* Modifier la direction en colonne */
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    color:white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+}
+.ClasseName h1 {
+    margin: 0; /* Ajouter cette ligne pour éliminer la marge par défaut des h1 */
+}
