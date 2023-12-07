@@ -1,30 +1,34 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
     margin: 0;
     padding: 0;
-    background-color: rgb(175, 98, 98);
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-
+/*barre de navigation */
 .FullNavigationBar {
     display: flex;
     justify-content: center; /* Aligne les éléments horizontalement au centre */
     align-items: center; /* Aligne les éléments verticalement au centre */
-    height: 110px; /* hauteur */
-    font-family: 'Roboto mono';
+ 
     font-size: 20px;
     background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
-    margin-bottom: 200px;
+  
 
-}
+} /*#6ec1e4*/
 
+/*texte de la barre de nav */
 .FullNavigationBar a {
     color: rgb(238, 236, 236);
     text-decoration: none;
     /*padding: 25px;*/
-    margin: 25px;
+    margin: 25px; 
     position: relative;
+    font-weight: 500; /* Ajustez cette valeur selon vos besoins */
 }
+/*accueil en bleu*/
 #accueil{
     /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
     color:rgb(4, 224, 150);
@@ -47,6 +51,7 @@ body {
     transition: left 250ms ease-in-out, right 250ms ease-in-out;
 }
 
+/* nom et prenom */
 .ClasseName{
     display: flex;
     flex-direction: column; /* Modifier la direction en colonne */
@@ -56,8 +61,33 @@ body {
     font-size: 5vw;
     text-transform: uppercase;
     letter-spacing: 2.2px;
+    /*border: 1px solid red; /* Ajoutez une bordure pour le débogage */
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+    height: 78vh; /* Occupe la hauteur complète de la fenêtre */
+  
+
 }
-.ClasseName h1 {
-    margin: 0; /* Ajouter cette ligne pour éliminer la marge par défaut des h1 */
+/*contient toute les balises */
+.Container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Utilise toute la hauteur de la fenêtre */
+    margin: 0; /* Réinitialise les marges par défaut du navigateur */
+}
+
+/*marge entre le haut et le text */
+h1 {
+    margin:-3px
+}
+
+/*marge entre le haut et le text */
+.NavigationBarWrapper {
+    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/*lastname size */
+#IdLastName{
+    font-size: 8.5vw;
+    
+
 }
