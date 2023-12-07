@@ -63,7 +63,7 @@ body {
     letter-spacing: 2.2px;
     /*border: 1px solid red; /* Ajoutez une bordure pour le débogage */
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
-    height: 78vh; /* Occupe la hauteur complète de la fenêtre */
+    height: 78vh; /* Occupe 78vh de la hauteur complète de la fenêtre (m'a aidé à centré le text)*/
   
 
 }
