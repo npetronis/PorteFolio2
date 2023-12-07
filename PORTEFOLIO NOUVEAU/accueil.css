@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: center; /* Aligne les éléments horizontalement au centre */
     align-items: center; /* Aligne les éléments verticalement au centre */
- 
+
     font-size: 20px;
     background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
   
@@ -32,6 +32,7 @@ body {
 #accueil{
     /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
     color:rgb(4, 224, 150);
+   
 }
 
 .FullNavigationBar a:after{
@@ -63,7 +64,7 @@ body {
     letter-spacing: 2.2px;
     /*border: 1px solid red; /* Ajoutez une bordure pour le débogage */
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
-    height: 78vh; /* Occupe 78vh de la hauteur complète de la fenêtre (m'a aidé à centré le text)*/
+    height: 80vh; /* Occupe 78vh de la hauteur complète de la fenêtre (m'a aidé à centré le text)*/
   
 
 }
@@ -88,6 +89,11 @@ h1 {
 /*lastname size */
 #IdLastName{
     font-size: 8.5vw;
-    
-
 }
+
+#option{
+    font-size: 30px;
+    margin-top:10px;
+}
+
+  
