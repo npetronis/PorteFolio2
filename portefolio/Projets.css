@@ -6,6 +6,7 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    
     /*min-height: 120vh;
     display: grid;
     place-items: center;*/
@@ -14,6 +15,57 @@ body {
 }
 
 
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+/*barre de navigation */
+.FullNavigationBar {
+    display: flex;
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    margin-bottom:1%;
+    font-size: 20px;
+    background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+  
+
+} /*#6ec1e4*/
+
+/*texte de la barre de nav */
+.FullNavigationBar a {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+    /*padding: 25px;*/
+    margin: 25px; 
+    position: relative;
+    font-weight: 500; /* Ajustez cette valeur selon vos besoins */
+}
+/*competences en bleu*/
+#projets{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(4, 224, 150);
+   
+}
+.FullNavigationBar a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px gold;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.FullNavigationBar a:hover:after{
+    transform: scaleX(1);
+}
+
+
+.FullNavigationBar a:hover{
+    transform: scale(1.1);
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+/*marge entre le haut et le text */
+.NavigationBarWrapper {
+    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
 
 
 section{
@@ -226,54 +278,3 @@ i:hover{
     animation: fadeIn 0.5s ease-out;
   }
   
-/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
-
-/*barre de navigation */
-.FullNavigationBar {
-    display: flex;
-    justify-content: center; /* Aligne les éléments horizontalement au centre */
-    align-items: center; /* Aligne les éléments verticalement au centre */
-    margin-bottom:1%;
-    font-size: 20px;
-    background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
-  
-
-} /*#6ec1e4*/
-
-/*texte de la barre de nav */
-.FullNavigationBar a {
-    color: rgb(238, 236, 236);
-    text-decoration: none;
-    /*padding: 25px;*/
-    margin: 25px; 
-    position: relative;
-    font-weight: 500; /* Ajustez cette valeur selon vos besoins */
-}
-/*competences en bleu*/
-#projets{
-    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
-    color:rgb(4, 224, 150);
-   
-}
-.FullNavigationBar a:after{
-    display:block;
-    content: '';
-    border-bottom: solid 2px gold;  
-    transform: scaleX(0);  
-    transition: transform 250ms ease-in-out;
-}
-.FullNavigationBar a:hover:after{
-    transform: scaleX(1);
-}
-
-
-.FullNavigationBar a:hover{
-    transform: scale(1.1);
-    transition: left 250ms ease-in-out, right 250ms ease-in-out;
-}
-/*marge entre le haut et le text */
-.NavigationBarWrapper {
-    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
-}
-
-/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
