@@ -1,0 +1,448 @@
+body {
+    background-color: #000;
+    font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
+    margin: 0;
+    padding: 0;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadeInAnimation ease 3s; 
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1; 
+ 
+    transition: opacity 1s ease-in-out;
+}
+
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+/*barre de navigation */
+.FullNavigationBar {
+    display: flex;
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+
+    font-size: 20px;
+    background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+    margin-bottom: 2%;
+  
+
+} /*#6ec1e4*/
+
+/*texte de la barre de nav */
+.FullNavigationBar a {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+    /*padding: 25px;*/
+    margin: 25px; 
+    position: relative;
+    font-weight: 500; /* Ajustez cette valeur selon vos besoins */
+}
+/*competences en bleu*/
+#competences{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(4, 224, 150);
+   
+}
+.FullNavigationBar a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px gold;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.FullNavigationBar a:hover:after{
+    transform: scaleX(1);
+}
+
+
+.FullNavigationBar a:hover{
+    transform: scale(1.1);
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+/*marge entre le haut et le text */
+.NavigationBarWrapper {
+    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+/*c'était pour des competences mais formé autrement 
+h2{
+    color:white;
+}
+span{
+    color:white;
+}
+.wrapper{
+    
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+ 
+
+}
+
+.skill {
+ 
+    margin-bottom: 35px;
+    position: relative;
+    overflow-x:hidden;  
+}
+
+.skill > p {
+
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0;
+}
+.skill:before{
+    width: 100%;
+    height: 5px;
+    content: "";
+    display: block;
+    position: absolute;
+    background: #959595;
+    bottom: 0;
+}
+.skill-bar {
+    
+    width: 100%;
+    height: 5px;
+    background:#f4392f;
+    display: block;
+    position: relative;
+}
+
+
+.skill1{
+    width: 95%;
+  
+}
+.skill-bar span{
+    position: absolute;
+    border-top: 5px solid #f4392f;
+    top: -30px;
+    padding: 0;
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: 500;
+}
+.skill-bar {
+    position: relative;
+  
+}
+
+.skill1 .skill-count1 {
+    right: 0;
+}
+
+.skill2{
+    width: 85%;
+}
+
+.skill2 .skill-count2 {
+    right: 0;
+}
+
+.skill3{
+    width: 75%;
+}
+.skill3 .skill-count3 {
+    right: 0;
+}
+
+
+.skill4{
+    width: 65%
+}
+
+.skill4 .skill-count4 {
+    right: 0;
+}
+
+
+.skill5{
+    width: 80%;
+}
+
+.skill5 .skill-count5 {
+    right: 0;
+}
+
+
+.skill6{
+    width: 90%
+}
+
+.skill6 .skill-count6 {
+    right: 0;
+}*/
+
+/*pdf--------------------------------------------------------------------------------------*/
+
+.github-source{
+float:right;
+display:block;
+color:#fff;
+margin:0 20px;
+position: relative;
+z-index:999999;
+top:0;
+}
+.github-source i{
+font-size:50px;
+color:#000
+}
+.pdf-section {
+    margin-right:auto;
+    margin-left: auto;
+    margin-top: 50px;
+    text-align: center;
+    width: 500px;
+}
+
+.pdf-section embed {
+    margin-top: 20px;
+    border: 1px solid #fff; /* Ajoutez une bordure si nécessaire */
+
+
+  
+}
+
+.pdf-section button {
+    background-color: #f4392f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 60px; /*Pour descendre la marge en bas*/
+}
+
+.pdf-section button:hover {
+    background-color: #333;
+}
+.skills-and-pdf {
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    margin:0 auto;
+}
+
+.how-title{
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Aligne les éléments verticalement au centre */
+
+}
+h2{
+    color:white;
+}
+/*pdf--------------------------------------------------------------------------------------*/
+
+/*competences--------------------------------------------------------------------------------------*/
+.competences {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    z-index: 4;
+   
+    background-color: rgb(0, 0, 0,0.4); /*fond*/
+   /* border-top:solid;
+    border-bottom:solid;*/
+   
+
+}
+.competences p{
+    position: relative;
+     top:50px;
+     color:WHITE;
+     
+     font-size:40px;
+
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}.texteCompetences{
+    /*background-color: #21b2a6;*/
+    position: relative;
+    z-index: 5;
+ 
+    background: #dfdbdb; 
+    padding: 6em 0 4em; /*important contenu dans le div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+/*.texteCompetences img{
+    
+    position: relative;
+    z-index: 5;
+    font-size: 20;
+    text-align: center;
+    margin: 0 0 2em;
+    padding: 0;
+    border: 0;
+    width: 80%;
+    letter-spacing: .075em;
+    -webkit-text-size-adjust: none;
+    color:#878585;
+
+
+}*/
+.wrapper {
+    display: flex;
+    justify-content: center; /* Ajout de cette propriété pour centrer horizontalement */
+    align-items: center;
+    flex-direction: row;
+    margin: auto;
+  
+    position: relative;
+    z-index: 7;
+    padding: 6em 0 4em;
+    overflow: hidden;
+   
+    
+    width: 100%;
+
+  }
+
+  
+  .item .title {
+    font-weight: bold;
+    margin: 1rem;
+  }
+  
+  .item img {
+    height: 7rem;
+  }
+  .item .C{
+    position: relative;
+    top: 20px;
+    height: 10rem;
+   
+  }
+  .item .Java{
+    height: 10rem;
+  }
+  .item .Css{
+    height: 10rem;
+  }
+  .item .Php{
+    position: relative;
+    top: 50px;
+    height: 7rem;
+  }
+  .item .Sql{
+    position: relative;
+    top: 50px;
+    height: 7rem;
+  }
+
+  .item .Html{
+    position: relative;
+    top:40px;
+    height: 7rem;
+  }
+  .item .Photoshop{
+    position: relative;
+    top:40px;
+    height: 7rem;
+    
+  }
+  .item .Bash{
+    position: relative;
+    top:25px;
+    height:8.5rem;
+  }
+  
+  .next,
+  .prev {
+    font-family: monospace;
+    font-size: 5rem;
+    background: none;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: rgb(100,100,100, 0.5);
+  }
+  .prev{
+    transform: rotate(-180deg);
+  }
+  .next:hover{
+    color: rgb(200,200,200);
+  }
+  .prev:hover{
+    color: rgb(200,200,200);
+  }
+  
+  .item {
+    flex: 1 0 25%;
+    min-height: 200px;
+    text-align: center;
+    height: auto;
+  
+  }
+
+  
+  
+  @media (max-width: 1024px) {
+    .item {
+      flex: 1 0 33%;
+
+    }
+   
+  }
+  @media (max-width: 768px) {
+    .item {
+      flex: 1 0 50%;
+    }
+    
+  }
+  @media (max-width: 576px) {
+    .item {
+      flex: 1 0 100%;
+    }
+  }
+
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+
+
+.slider {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+
+          
+}
+#competesese{
+    display: flex;
+  }
+  /*competences--------------------------------------------------------------------------------------*/
