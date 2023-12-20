@@ -6,12 +6,29 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    animation: fadeInAnimation ease 3s; 
-    animation-fill-mode: forwards; 
-    animation-iteration-count: 1; 
+
  
-    transition: opacity 1s ease-in-out;
+  
 }
+/* Animation de fondu à l'entrée */
+@keyframes fadeIn {
+  from {
+  
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+      pointer-events: none; /* Permet aux événements de passer à travers la superposition après l'animation */
+  }
+}
+
+/* Applique l'animation à la classe spécifique */
+.FadeInEffect {
+  animation: fadeIn 0.5s ease-out;
+}
+
+
+
 
 /*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
 
