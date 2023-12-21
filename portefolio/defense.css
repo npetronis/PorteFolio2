@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 body {
     font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
     margin: 0;
@@ -7,30 +6,31 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Animation de fondu à l'entrée */
 @keyframes fadeIn {
     from {
+    
         opacity: 0;
     }
     to {
         opacity: 1;
         pointer-events: none; /* Permet aux événements de passer à travers la superposition après l'animation */
     }
-  }
-  
-  /* Applique l'animation à la classe spécifique */
-  .FadeInEffect {
-    animation: fadeIn 0.5s ease-out;
-  }
-  
+}
+
 /*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
 
+/* Applique l'animation à la classe spécifique */
+.FadeInEffect {
+    animation: fadeIn 0.5s ease-out;
+}
 /*barre de navigation */
 .FullNavigationBar {
     display: flex;
     justify-content: center; /* Aligne les éléments horizontalement au centre */
     align-items: center; /* Aligne les éléments verticalement au centre */
-    margin-bottom: 2%;
+
     font-size: 20px;
     background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
   
@@ -46,12 +46,13 @@ body {
     position: relative;
     font-weight: 500; /* Ajustez cette valeur selon vos besoins */
 }
-/*competences en bleu*/
-#veille{
+/*accueil en bleu*/
+#stage{
     /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
     color:rgb(4, 224, 150);
    
 }
+
 .FullNavigationBar a:after{
     display:block;
     content: '';
@@ -72,15 +73,23 @@ body {
 .NavigationBarWrapper {
     margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
 }
-
 /*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
-
 #title{
     display: flex;
     flex-direction: column;
     align-items: center;
     color:white;
-    font-size: 30pt;
+    font-size: 40pt;
+    font-weight: 500;
+    margin-bottom: -17px;
+}
+
+#subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size: 25pt;
     font-weight: 500;
 
 }
@@ -92,7 +101,7 @@ p{
   font-size: 20pt;
   font-weight: 500;
 
-  max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p */
     margin-right: auto;
     margin-left: auto    ;
     /* Autres propriétés que vous pouvez ajuster selon vos besoins */
