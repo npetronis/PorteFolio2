@@ -82,5 +82,45 @@ body {
     color:white;
     font-size: 40pt;
     font-weight: 500;
+    margin-bottom: -17px;
+}
+#subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size: 25pt;
+    font-weight: 500;
 
+}
+.skills li{
+    display:inline-block;
+    padding:4px 8px;
+    border: dashed 1px var(--color);
+    background-color: lightgray;
+    box-shadow: 1px 1px 0px #000000, 4px 4px 0px rgba(82, 82, 82, 0.25);
+    /*#f6d4b1*/
+    color:rgb(43, 43, 43);
+}
+.skills{
+    margin: 0; /*  pour supprimer la marge par défaut de la liste */
+    padding: 0; /*  pour supprimer le rembourrage par défaut de la liste */
+    text-align: center;
+    list-style-type: none;
+  
+
+}
+#tools{
+    color:white;
+    margin-right: 80px; /* Ajoutez une marge à droite pour séparer le texte des compétences */
+
+    
+}
+.outils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15pt;
+    
+    
 }
