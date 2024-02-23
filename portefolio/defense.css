@@ -2,9 +2,11 @@ body {
     font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
     margin: 0;
     padding: 0;
-    background-image: url("background.png");
+    /*background-image: url("background.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover;*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 100%, rgba(0,212,255,1) 100%); 
 }
 
 /* Animation de fondu à l'entrée */
@@ -113,6 +115,33 @@ p{
     
         max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
    
-        
-      
+}
+.long2{
+    max-width: 1500px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+
+}
+.conteneur {
+    display: flex;
+    justify-content: center; /* Centre l'élément horizontalement */
+  }
+.img-classe {
+    width: 50%; /* Définit la largeur de l'image à 50% de la largeur de son conteneur */
+  }
+  .img-classe2 {
+    width: 50%; /* Définit la largeur de l'image à 50% de la largeur de son conteneur */
+  }
+  .img-classe3 {
+    width: 30%; /* Définit la largeur de l'image à 50% de la largeur de son conteneur */
+  }
+  .img-classe4 {
+    width: 40%; /* Définit la largeur de l'image à 50% de la largeur de son conteneur */
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size: 30pt;
+    font-weight: 500;
+
 }

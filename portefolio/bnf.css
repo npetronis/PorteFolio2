@@ -2,9 +2,11 @@ body {
   font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
   margin: 0;
   padding: 0;
-  background-image: url("background.png");
+  /*background-image: url("background.png");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover;*/
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 100%, rgba(0,212,255,1) 100%); 
 }
 
 /* Animation de fondu à l'entrée */
@@ -130,7 +132,7 @@ max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p 
 }
 .img-classe3:hover{
   width: 50%;
-  padding-right: 250px;
+  padding-right: 120px;
 }
 .img-classe4{
   width: 33%;
@@ -147,7 +149,7 @@ max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p 
 }
 .img-classe5:hover{
   width: 50%;
-  padding-left: 80px;
+  padding-left: 50px;
 }
 .large2{
   max-width: 1500px; /* Limitez la largeur du texte à l'intérieur de la balise p */
@@ -166,3 +168,12 @@ max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p 
   line-height: 1.2; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
 }
 
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  font-size: 30pt;
+  font-weight: 500;
+
+}
