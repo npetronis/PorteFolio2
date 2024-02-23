@@ -1,0 +1,168 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
+  margin: 0;
+  padding: 0;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Animation de fondu à l'entrée */
+@keyframes fadeIn {
+  from {
+  
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+      pointer-events: none; /* Permet aux événements de passer à travers la superposition après l'animation */
+  }
+}
+
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+/* Applique l'animation à la classe spécifique */
+.FadeInEffect {
+  animation: fadeIn 0.5s ease-out;
+}
+/*barre de navigation */
+.FullNavigationBar {
+  display: flex;
+  justify-content: center; /* Aligne les éléments horizontalement au centre */
+  align-items: center; /* Aligne les éléments verticalement au centre */
+
+  font-size: 20px;
+  background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+
+
+} /*#6ec1e4*/
+
+/*texte de la barre de nav */
+.FullNavigationBar a {
+  color: rgb(238, 236, 236);
+  text-decoration: none;
+  /*padding: 25px;*/
+  margin: 25px; 
+  position: relative;
+  font-weight: 500; /* Ajustez cette valeur selon vos besoins */
+}
+/*accueil en bleu*/
+#stage{
+  /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+  color:rgb(4, 224, 150);
+ 
+}
+
+.FullNavigationBar a:after{
+  display:block;
+  content: '';
+  border-bottom: solid 2px gold;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.FullNavigationBar a:hover:after{
+  transform: scaleX(1);
+}
+
+
+.FullNavigationBar a:hover{
+  transform: scale(1.1);
+  transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+/*marge entre le haut et le text */
+.NavigationBarWrapper {
+  margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+}
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+#title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  font-size: 40pt;
+  font-weight: 500;
+  margin-bottom: -17px;
+}
+
+#subtitle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  font-size: 25pt;
+  font-weight: 500;
+
+}
+p{
+  border-top: 2px solid transparent;
+  padding-top: 10px; /* Ajoutez de l'espace entre la bordure et le texte */
+ 
+color:white;
+font-size: 20pt;
+font-weight: 500;
+
+max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  margin-right: auto;
+  margin-left: auto    ;
+  /* Autres propriétés que vous pouvez ajuster selon vos besoins */
+  text-align: center; /* Centre le texte horizontalement */
+  line-height: 1.5; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+}
+.large{
+  max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  background-color: rgba(0, 0, 0, 0.1) /* Noir avec une opacité de 50% */
+}
+.conteneur {
+  display: flex;
+  justify-content: center; /* Centre l'élément horizontalement */
+}
+
+.img-classe {
+  width: 30%; /* Définit la largeur de l'image à 50% de la largeur de son conteneur */
+}
+.img-classe2{
+  width: 33%;
+  padding-left: 80px;
+}
+.img-classe3{
+  width: 35%;
+  padding-right: 120px;
+}
+.img-classe3:hover{
+  width: 50%;
+  padding-right: 250px;
+}
+.img-classe4{
+  width: 33%;
+  padding-left: 80px;
+}
+.img-classe4:hover{
+  width: 50%;
+  padding-left: 80px;
+}
+
+.img-classe5{
+  width: 33%;
+  padding-left: 50px;
+}
+.img-classe5:hover{
+  width: 50%;
+  padding-left: 80px;
+}
+.large2{
+  max-width: 1500px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  background-color: rgba(0, 0, 0, 0.1); /* Noir avec une opacité de 50% */
+  line-height: 1; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+
+}
+
+.img-classe6{
+  width: 33%;
+  padding-left: 50px;
+}
+.large3{
+  max-width: 1500px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  background-color: rgba(0, 0, 0, 0.1); /* Noir avec une opacité de 50% */
+  line-height: 1.2; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+}
+

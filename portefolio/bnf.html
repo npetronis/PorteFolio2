@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bnf.css">
+    <title>PorteFolio</title>
+</head>
+<body>
+   
+<div class = "Container FadeInEffect">
+  
+    <div class = "NavigationBarWrapper">
+        
+     
+        <nav class = "FullNavigationBar">
+          
+          
+            <a href="accueil.html" id = "accueil">Accueil</a>
+            <a href="competence.html" id = "competences">Compétences</a>
+            <a href="Projets.html" id = "projets">Projets</a>
+            <a href="stage.html" id = "stage">Stages</a>
+            <a href="Veilles.html" id = "veille">Veille</a>
+            
+
+        </nav>
+       
+    </div>
+  
+    <div class = "aucuneidee">
+        <h1 id = "title">Stage à la Bibliothèque national de France</h1>
+        <h2 id = "subtitle">8 janvier au 9 fevrier 2024</h2>
+        <br>
+        <p>J’ai réalisé mon stage à Direction des Systèmes d'Information de la Bibliothèque Nationale de France (BNF)</p>
+        <div class="conteneur">
+            <img class="img-classe2" src="Logo/debut.png">
+        </div>
+
+
+        <br><br><br>
+        <p class = "large">Durant mon stage, j'ai eu l'opportunité de concevoir une application web en Java à l'aide du framework Spring Boot. J'ai travaillé sur une machine virtuelle sous Fedora qui était préconfigurée avec tous les outils nécessaires, dont Eclipse  l’ide que j’ai utilisé pour développer l’application
+            Le projet était géré via Redmine, qui est une plateforme de gestion de projet open-source,
+             liée à une forge pour l'hébergement du code sur Git.
+            </p>
+        <div class="conteneur">
+            <img class="img-classe" src="Logo/travail.png">
+        </div>
+
+
+        <br><br><br>
+        <p class = "large">Les tâches du projet étaient gérées via des demandes Redmine, ce qui m'a permis de diviser le projet en étapes. Lorsque je poussais du code sur Git, j'incluais le numéro de la demande pour faciliter la traçabilité des modifications.
+            </p>
+        <div class="conteneur">
+            <img class="img-classe3" src="Logo/redmine.png">
+        </div>
+        
+        
+        <br><br><br>
+        <p class = "large">Le but de l'application était de créer une application web de recherche simplifiée, similaire à Google, qui permet aux utilisateurs de saisir un terme de recherche dans un formulaire, de lancer la recherche, et d'afficher une liste de résultats, 
+            tout ça en mettant en œuvre les bonnes pratiques de développement web et les technologies couramment utilisées à la BnF. 
+            L'application devait gérer une bibliographie comprenant des livres et des auteurs. 
+            
+            </p>
+        <div class="conteneur">
+            <img class="img-classe4" src="Logo/recherche.png">
+        </div>
+
+
+        <br><br><br>
+        <p class = "large2">Dans un premier temps, j'ai créé des classes pour représenter les livres et les auteurs,
+             ainsi que des interfaces Repository pour chaque entité. Ces interfaces elles étendent JpaRepository, 
+             permettant ainsi de réaliser facilement les opérations CRUD sur la base de données. 
+            <br><br>
+            CRUD est l’acronyme de (CREATE, READ, UPDATE, DELETE) . <br><br>
+
+            Ensuite j'ai développé la couche service, qui contient la logique métier de l'application.
+             Dans la version théorique de java Les méthodes GET permettaient de récupérer des données avec justement la recherche par Titre. <br><br></p>
+             <div class="conteneur">
+                <img class="img-classe5" src="Logo/MVC.png">
+            </div>
+        <p class = "large2">
+             Les méthodes POST étaient responsables des actions telles que la création, la modification ou la suppression d'un livre dans la base de données. <br><br>
+            Ensuite j'ai implémenté la couche contrôleur, où les méthodes GET récupéraient les informations sur les livres et les transmettaient à la vue, 
+            tandis que les méthodes POST reçoivent et traitent les données et les transmets à la vue pour  etre affichées.
+
+            </p>
+            <br><br><br>
+        
+        <br><br><br>
+        <p class = "large3">
+            J’ai fais des testes unitaires pour le service qui ont permis de vérifier que la logique métier fonctionne correctement, 
+            en simulant différents scénarios et en s'assurant que les résultats sois conformes aux attentes
+            //ça permet de tester que la liste contiens le bon nombre //d’élément ou que des champs ne sois pas vides.<br><br>
+            
+            et j’ai fais des tests d'intégration pour les contrôleurs qui simulent le comportement d'un utilisateur interagissant avec l'application à travers 
+            l'interface utilisateur..  comme l’insertion d’un auteur dans la base de donnée.<br><br>
+            
+            Ensuite j’ai du faire du refactoring et le fais d’avoir écris les tests unitaires avant de procéder au refactoring, ça a facilité detection et 
+            la correction des erreurs au fur et à mesure de leur apparition. <br><br>
+            J'ai dû adapter le code car toutes les classes de l'application utilisaient le même type. 
+            J'ai converti les entités livre et auteur en beans pour les faire passer au service, puis en DTO pour les faire passer du service au contrôleur.<br><br>
+             Cette approche a permis d'isoler les modifications dans chaque classe, facilitant ainsi les tests unitaires et réduisant les répercussions sur les 
+             autres parties de l'application.<br><br>
+            Enfin j’ai implémenté swagger, qui permet de documenter et tester des API REST, ce qui facilite la collaboration entre les équipes de developpement,
+             cela permet à tout le monde d’avoir une documentation à jour et précise.
+            Parler de solarInt, Junit Coverage
+            
+ 
+            </p>
+        <div class="conteneur">
+            <img class="img-classe5" src="Logo/qualitecode.png">
+        </div>
+           
+        <br><br><br>
+        <p class = "large3"> j’ai eu l’occasion de plonger dans le monde professionnel et de découvrir comment les entreprises fonctionne au quotidien. 
+            <br><br>
+            J’ai pu observer comment une structure hiérarchique est établie, comment les différents services interagissent, 
+            J’ai pu participer à quelques réunions et voir comment les décisions sont prises et mises en œuvre. <br><br>
+            Cette expérience m'a permis d'acquérir une vision plus complète de ce qu'est le développement web. Initialement, 
+            j'avais des appréhensions sur la complexité du developpement web, mais après cinq semaines de stage, j'ai été agréablement surpris de constater que
+             c'était plus accessible que je ne le pensais. <br><br>
+            Cette experience  m’a ouvert les yeux sur les nombreuses possibilités et opportunités qu'il offre et  je suis convaincu que le développement web 
+            pourrait être une voie prometteuse à explorer davantage dans le cadre de mes études et de ma future carrière.
+            
+            
+            </p>
+        <div class="conteneur">
+            <img class="img-classe6" src="Logo/bilan.png">
+        </div>
+        <br><br><br><br>
+</div>
+   
+</div>
+
+</body>
+</html>
