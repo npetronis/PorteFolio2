@@ -108,3 +108,11 @@ p{
     text-align: center; /* Centre le texte horizontalement */
     line-height: 1.5; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
 }
+
+.long{
+    
+        max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+   
+        
+      
+}
