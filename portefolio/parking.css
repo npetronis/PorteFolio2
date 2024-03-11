@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=chill');
+
+body {
+    font-family: 'Montserrat', sans-serif; 
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+/* Animation de fondu à l'entrée */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+        pointer-events: none; /* Permet aux événements de passer à travers la superposition après l'animation */
+    }
+  }
+  
+  /* Applique l'animation à la classe spécifique */
+  .FadeInEffect {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+/*barre de navigation */
+.FullNavigationBar {
+    display: flex;
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    margin-bottom: 2%;
+    font-size: 20px;
+    background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+  
+
+} /*#6ec1e4*/
+
+/*texte de la barre de nav */
+.FullNavigationBar a {
+    color: rgb(238, 236, 236);
+    text-decoration: none;
+    /*padding: 25px;*/
+    margin: 25px; 
+    position: relative;
+    font-weight: 500; /* Ajustez cette valeur selon vos besoins */
+}
+/*competences en bleu*/
+#projets{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(4, 224, 150);
+   
+}
+.FullNavigationBar a:after{
+    display:block;
+    content: '';
+    border-bottom: solid 2px gold;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+}
+.FullNavigationBar a:hover:after{
+    transform: scaleX(1);
+}
+
+
+.FullNavigationBar a:hover{
+    transform: scale(1.1);
+    transition: left 250ms ease-in-out, right 250ms ease-in-out;
+}
+/*marge entre le haut et le text */
+.NavigationBarWrapper {
+    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+}
+
+/*CSS LIEE A LA BARRE DE NAV*------------------------------------------------------------------------------------------*/
+
+#title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size: 40pt;
+    font-weight: 500;
+    margin-bottom: -17px;
+}
+
+#subtitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    font-size: 25pt;
+    font-weight: 500;
+
+}
+.skills li{
+    display:inline-block;
+    padding:4px 8px;
+    border: dashed 1px var(--color);
+    background-color: lightgray;
+    box-shadow: 1px 1px 0px #000000, 4px 4px 0px rgba(82, 82, 82, 0.25);
+    /*#f6d4b1*/
+    color:rgb(43, 43, 43);
+}
+.skills{
+    margin: 0; /*  pour supprimer la marge par défaut de la liste */
+    padding: 0; /*  pour supprimer le rembourrage par défaut de la liste */
+    text-align: center;
+    list-style-type: none;
+    margin-top: 0;
+  
+
+}
+#tools{
+    color:white;
+   /* margin-right: 80px; /* Ajoutez une marge à droite pour séparer le texte des compétences */ 
+    margin-bottom: 5px;
+    
+}
+.outils{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 15pt;
+   margin-bottom: 1%;
+  
+    
+    
+}
+p{
+    border-top: 2px solid transparent;
+    padding-top: 10px; /* Ajoutez de l'espace entre la bordure et le texte */
+   
+  color:white;
+  font-size: 20pt;
+  font-weight: 500;
+
+  max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+    margin-right: auto;
+    margin-left: auto    ;
+    /* Autres propriétés que vous pouvez ajuster selon vos besoins */
+    text-align: center; /* Centre le texte horizontalement */
+    line-height: 1.5; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+}
