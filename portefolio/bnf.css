@@ -2,11 +2,11 @@ body {
   font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
   margin: 0;
   padding: 0;
-  /*background-image: url("background.png");
+  background-image: url("background.png");
   background-repeat: no-repeat;
-  background-size: cover;*/
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 100%, rgba(0,212,255,1) 100%); 
+  background-size: cover;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(23,9,121,1) 100%, rgba(0,212,255,1) 100%);  */
 }
 
 /* Animation de fondu à l'entrée */
@@ -95,6 +95,10 @@ body {
   font-weight: 500;
 
 }
+.text{
+  max-width: 1500px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+
+}
 p{
   border-top: 2px solid transparent;
   padding-top: 10px; /* Ajoutez de l'espace entre la bordure et le texte */
@@ -103,7 +107,7 @@ color:white;
 font-size: 20pt;
 font-weight: 500;
 
-max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
   margin-right: auto;
   margin-left: auto    ;
   /* Autres propriétés que vous pouvez ajuster selon vos besoins */
@@ -176,4 +180,21 @@ max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p 
   font-size: 30pt;
   font-weight: 500;
 
+}
+.bouton {
+  display: block;
+  width: 200px; /* Vous pouvez ajuster la largeur selon vos besoins */
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #007bff; /* Couleur de fond */
+  color: #fff; /* Couleur du texte */
+  text-decoration: none; /* Supprimer soulignement par défaut */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 16px;
+}
+
+.bouton:hover {
+  background-color: #0056b3; /* Couleur de fond au survol */
+  color: #fff; /* Couleur du texte au survol */
 }
