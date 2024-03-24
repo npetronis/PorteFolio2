@@ -79,10 +79,10 @@ body {
     color:white;
     font-size: 5vw;
     text-transform: uppercase;
-    letter-spacing: 2.2px;
+    letter-spacing: 3.3px;
     /*border: 1px solid red; /* Ajoutez une bordure pour le débogage */
     text-shadow: 1px 3px 11px rgba(0,0,0,.3);
-    height: 80vh; /* Occupe 78vh de la hauteur complète de la fenêtre (m'a aidé à centré le text)*/
+    height: 100vh; /* Occupe 78vh de la hauteur complète de la fenêtre (m'a aidé à centré le text)*/
   
 
 }
@@ -112,6 +112,28 @@ h1 {
 #option{
     font-size: 30px;
     margin-top:10px;
+    margin-bottom: 5px;
+
+}
+
+#option2{
+
+    display: flex;
+
+    text-transform: none;
+
+       
+      color:white;
+      font-size:19pt;
+  
+    
+      max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+
+        /* Autres propriétés que vous pouvez ajuster selon vos besoins */
+        text-align: center; /* Centre le texte horizontalement */
+        line-height: 1.2; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+        letter-spacing: 0px;
+
 }
 
   
