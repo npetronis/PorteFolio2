@@ -137,10 +137,15 @@ p{
   font-size: 20pt;
   font-weight: 500;
 
-  max-width: 600px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+  max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
     margin-right: auto;
     margin-left: auto    ;
     /* Autres propriétés que vous pouvez ajuster selon vos besoins */
     text-align: center; /* Centre le texte horizontalement */
     line-height: 1.5; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center
 }
