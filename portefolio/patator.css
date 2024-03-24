@@ -1,0 +1,31 @@
+.bouton {
+    display: block;
+    width: 200px; /* Vous pouvez ajuster la largeur selon vos besoins */
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 20px;
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-decoration: none; /* Supprimer soulignement par défaut */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px;
+}
+
+.bouton:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}
+
+p{
+    max-width: 1500px;
+}
+
+#stage{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(255, 255, 255);
+   
+}
+#projets{
+    /*background: linear-gradient(125deg, #4915a0, #e92e84) !important;*/
+    color:rgb(4, 224, 150);
+}
