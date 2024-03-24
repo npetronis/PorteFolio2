@@ -119,13 +119,15 @@ h1 {
 #option2{
 
     display: flex;
-
+    margin-bottom: -15px;
     text-transform: none;
-
-       
+/* border-top: 3px black solid;
+border-bottom: 5px black solid; */
+  
       color:white;
       font-size:19pt;
-  
+      /* background-color: rgba(46, 45, 45,0.5); Couleur de fond de la barre de navigation */
+
     
       max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
 
@@ -136,4 +138,24 @@ h1 {
 
 }
 
+#option3{
+
+    display: flex;
+    margin-bottom: -15px;
+    text-transform: none;
+
+       padding: 15px;
+      color:white;
+      font-size:19pt;
+      /* background-color: rgba(46, 45, 45,0.5); Couleur de fond de la barre de navigation */
+
+    
+      max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p */
+
+        /* Autres propriétés que vous pouvez ajuster selon vos besoins */
+        text-align: center; /* Centre le texte horizontalement */
+        line-height: 1.2; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+        letter-spacing: 0px;
+
+}
   
