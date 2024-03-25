@@ -2,9 +2,11 @@ body {
     font-family: 'Roboto', sans-serif; /* Utilisez 'Roboto' comme police */
     margin: 0;
     padding: 0;
+
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgb(27, 23, 37);
 }
 
 /* Animation de fondu à l'entrée */
@@ -30,9 +32,9 @@ body {
     display: flex;
     justify-content: center; /* Aligne les éléments horizontalement au centre */
     align-items: center; /* Aligne les éléments verticalement au centre */
-
     font-size: 20px;
     background-color: rgba(46, 45, 45,0); /* Couleur de fond de la barre de navigation */
+    margin-bottom: 50px;
   
 
 } /*#6ec1e4*/
@@ -101,7 +103,7 @@ h1 {
 
 /*marge entre le haut et le text */
 .NavigationBarWrapper {
-    margin-top: 40px; /* Ajustez cette valeur selon vos besoins */
+    margin-top:50px; /* Ajustez cette valeur selon vos besoins */
 }
 
 /*lastname size */
@@ -111,15 +113,15 @@ h1 {
 
 #option{
     font-size: 30px;
-    margin-top:10px;
-    margin-bottom: 5px;
+    /* margin-top:10px;
+    margin-bottom: 5px; */
 
 }
 
 #option2{
 
     display: flex;
-    margin-bottom: -15px;
+    /* margin-bottom: -15px; */
     text-transform: none;
 /* border-top: 3px black solid;
 border-bottom: 5px black solid; */
@@ -158,4 +160,21 @@ border-bottom: 5px black solid; */
         letter-spacing: 0px;
 
 }
-  
+  /* #barreenbas{
+    background-color: black;
+    padding: 20px;
+  } */
+
+  .footer{
+ display: flex;
+    flex-direction: column; /* Modifier la direction en colonne */
+    justify-content: center; /* Aligne les éléments horizontalement au centre */
+    align-items: center; /* Aligne les éléments verticalement au centre */
+    color:white;
+    font-size: 5vw;
+    text-transform: uppercase;
+    letter-spacing: 3.3px;
+    /*border: 1px solid red; /* Ajoutez une bordure pour le débogage */
+    text-shadow: 1px 3px 11px rgba(0,0,0,.3);
+    height: 20vh; /* Occupe 78vh de la hauteur complète de la fenêtre*/
+  }
