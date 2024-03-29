@@ -1,0 +1,40 @@
+PLAN
+
+I / PRESENTATION DE MOI
+		- bac photo, BUT informatique
+		- pourquoi j'ai quitté la photo pour l'informatique
+		- pourquoi j'ai quitté le BUT pour venir en BTS ici
+
+II / BIS COMPETENCES
+	- voici toute les compétences apprises pendant le BTS puis mon CV
+
+II / PROJETS
+		- presentation de parking
+		- presentation de personnel
+		- presentation de tp startup
+		- presentation de fail2ban/patator
+
+III / STAGES 
+	1) PRESTENTER LES PROBLEMES, BESOINS --> 2) DIRE COMMENT J'AI RESOLU CES PROBLEMES
+
+	Cela doit etre simple et conscis, je vais au vif du sujet.
+
+	- AUDIT A LA DEFENCE D'UN SITE WEB 
+		- ou j'ai fais mon stage, dans quel service, quel ministere
+		- à quoi sert l'application
+		- à qui l'audit doit servir (afficher sur la premiere page une ou deux photo du site)
+		- à qui doit servir l'application final 
+		- les taches que j'ai réalisé		
+
+	- CREATION D'UNE APPLICATION EN JAVA SPRING BOOT
+		- ou j'ai fais mon stage, dans quel service, quel ministere
+		- à quoi sert l'application (afficher dans la premiere page la photo du site que j'ai créer)
+		- à qui dois servir l'applitation
+		- les taches que j'ai réalisé  
+
+IV / VEILLE INFORMATIQUE SUR LES MODELES DE LANGAGES 
+		- chat gpt...
+		- presentation de la veille
+		- les methodes utilisées pour ma veille
+		- ce que j'ai appris, les nouveautés
+	
