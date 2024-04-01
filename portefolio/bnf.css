@@ -192,9 +192,14 @@ max-width: 1000px; /* Limitez la largeur du texte à l'intérieur de la balise p
   text-decoration: none; /* Supprimer soulignement par défaut */
   border-radius: 5px; /* Coins arrondis */
   font-size: 16px;
+  margin-bottom: 50px;
 }
 
 .bouton:hover {
   background-color: #0056b3; /* Couleur de fond au survol */
   color: #fff; /* Couleur du texte au survol */
+}
+.img-classe{
+  width: 50%;
+
 }

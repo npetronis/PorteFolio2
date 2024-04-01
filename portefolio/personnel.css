@@ -150,3 +150,23 @@ p{
     align-items: center;
     justify-content: center
 }
+#a {
+    display: inline-block; /* Afficher en tant que bloc pour appliquer la largeur et la hauteur */
+    padding: 10px 20px; /* Ajouter un espace autour du texte */
+    text-decoration: none; /* Supprimer le soulignement par défaut */
+    background-color: #007bff; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille du texte */
+    transition: background-color 0.3s; /* Animation au survol */
+
+   
+}
+
+/* Changement de couleur au survol */
+#a:hover {
+    background-color: #0056b3;
+}
+.bouton{
+    text-align: center;
+}
