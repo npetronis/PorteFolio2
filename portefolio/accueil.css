@@ -108,7 +108,10 @@ h1 {
 
 /*lastname size */
 #IdLastName{
-    font-size: 8.5vw;
+    font-size: 3.5vw;
+}
+#IdName{
+    font-size: 5.5vw;
 }
 
 #option{
