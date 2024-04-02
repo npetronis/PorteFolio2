@@ -1,0 +1,83 @@
+Les premiers modeles de langages récent qui dates de 2018 : 
+
+ Ces Ia utilisent le machine learning.
+ machine learning : apprentissages automatiques.
+l'idée c'est pour résoudre un probleme c'est de ne pas avoir besoin de coder toute les regles à la main
+mais de lui montrer qu'elle est le probleme à résoudre et de faire en sorte que ce sois la machine qui trouve
+elle meme comment résoudre ce probleme.
+La machine va trouver comment résoudre ce probleme grace à des données. On appel ça des données labellisés
+
+Par exemple si jveux faire un classifieur pour savoir si des avis sur un films on positif ou negatifs
+jvais devoir construire un jeu de donnée d'avis avec un grand nombre d'avis positif et un grand nombre d'avis
+negatifs et quand jvais apprendre mon modele de machine learning, la machine va trouver automatiquement
+comment determiné quels avis son negatifs ou positif, elle va determiné elle meme les regles qui
+permettent de résoudre le probleme
+
+Le deep learning c'est un sous domaine du machine learning qui est arrivé recemment
+basé sur un type d'algorithme qui sont les réseaux de neuronne tres performant sur le text et les images
+le réseau récurrent sur le texte va traiter les mot sequentiellement
+
+l'apprentissage de gpt4, ça fais  8 + 11 mois qu'il est terminé. donc depuis sa sortis il était deja terminé
+
+probleme des modeles de langage écris (tchatr gpt)
+il est pas tres bon en maths et arithmetique,
+il a des hallucinations : le modele genere un fait qui est faux en donnant l'impression qu'il est confiant.
+alors que c'est faux factuellement.
+probleme de désalignement. Il predit le token et y'a pas de mechanisme pour dire ce qui est vrai et faux.
+probleme de fraicheur des données, plus ils sont gros plus les données vont avoir un décalage
+il va y avoir 1 ans ou 2 de décalage des données et c'est presque impossible de le mettre à jours.
+
+nouveauté connexion au modeles de langage avec des outils externes
+deleguée toute les taches difficiles ou il a du mal à résoudre et les délégués à des outils externes.
+on va le forcer à décomposer le probleme en sous tache plus simple,
+et chaque sous taches on va les résoudres avec des outils adaptés (le plus adapté)
+une calculatrice, du code python, une base de donnée de connaissance. 
+Ensuite on va renvoyer le retour de ces outils au modele de langage. Il va agrégé les retours et va résoudre les problemes
+exemple avec une mémoire externe, on pourrait brancher le modele de langage avec une base de donnée de connaissance
+par exemple wikibedia, donc au lieu de halluciner un fait historique faux ba le modele de langage va faire une requete
+à wikipedia et va obtenir le resultat et repondre en fonction du résultat que lui a fais wikipedia.
+Il y a des framework qui existe pour implémenter ça, ReAct (reason + act) par google
+L'objectif de se framework c'est de faire apprendre au modele de langage quand appeler une APi, comment l'appeler, avec quel argument
+et comment integrer le resultat. l'idée c'est que à chaque fois que le modele veut appeler une API ba c'est nous qui allons faire l'appel
+pour le modele de langage
+
+exemple question : quel est l'année de la bataille de marignan.
+on va demander au modele de langage de répondre toujours au meme format
+
+reflexion
+jvais reflechir par etape, il faut que je trouve cette information
+
+action
+je vais chercher dans wikipedia en quel année a eu l'année la bataille de marignon
+
+observation
+wikipedia donne l'information que la bataille de marigon s'est déroulée en 1515
+
+réponse la bataille est donc en 1515
+
+on va lui dire les outils dont il a acces
+par exemple il a acces à l'api wikipedia, tel ou tel api ,  acces à une calculatrice pour faire des calcules d'arithmetiques
+et c'est le modele qui va determiner que pour faire un calcule de maths il vaudrait mieux appeler la calculatrice
+
+meta propose toolformer
+leur idée c'est la meme chose sauf que au lieu de faire du prompt ingenieuring il va faire du fine tunning
+on encode le comportement dans le modele
+on va demander au modele de generer lui meme les appels d'api. Au moment ou vois les appels d'api on coupe la génération
+on fais l'appel à la place du modele et on retourne le résultat dans le prompt et et apres le modele de langage analyse le résultat
+et répond
+
+
+
+
+
+
+
+Les modèles de langage sont comme des robots qui apprennent en regardant beaucoup de textes. Ils sont capables de répondre à des questions ou de générer du texte en se basant sur ce qu'ils ont appris. Par exemple, si vous leur demandez "Quelle est la capitale de la France ?", ils peuvent répondre "Paris". Mais parfois, ils peuvent se tromper, comme nous tous. Pour les aider à mieux répondre, on peut leur donner accès à des outils comme Wikipedia pour vérifier leurs réponses ou à une calculatrice pour faire des calculs.
+
+C'est un peu comme si vous aviez un ami qui est très intelligent mais qui parfois se trompe. Vous pouvez lui donner un livre pour vérifier ses réponses quand il n'est pas sûr. Cela aide votre ami à être plus précis dans ses réponses.
+
+
+
+Les modèles de langage utilisent le machine learning pour résoudre des problèmes sans nécessiter de coder manuellement toutes les règles. Ils apprennent à partir de données labellisées pour accomplir des tâches telles que l'analyse de sentiments. Le deep learning, notamment avec les réseaux récurrents, est efficace sur le texte. Cependant, les modèles actuels présentent des lacunes comme des erreurs factuelles et des problèmes d'alignement. Pour y remédier, on peut intégrer des outils externes via des frameworks comme ReAct, permettant au modèle d'appeler des APIs pour compléter ses connaissances et améliorer ses réponses. En parallèle, des approches telles que Toolformer proposent un ajustement fin pour guider le modèle dans l'utilisation des APIs, limitant ainsi les erreurs.
+Est-ce que cela vous aide à comprendre un peu mieux ? N'hésitez pas si vous avez d'autres questions !
+

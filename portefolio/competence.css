@@ -463,3 +463,14 @@ h2{
     display: flex;
   }
   /*competences--------------------------------------------------------------------------------------*/
+
+
+  .synthese{
+
+    width: 50%;
+  }
+ .syntheseConteneur{
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Ajout de cette propriété pour centrer horizontalement */
+  }
