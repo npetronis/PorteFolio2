@@ -72,7 +72,7 @@ et répond
 
 
 
-Les modèles de langage sont comme des robots qui apprennent en regardant beaucoup de textes. Ils sont capables de répondre à des questions ou de générer du texte en se basant sur ce qu'ils ont appris. Par exemple, si vous leur demandez "Quelle est la capitale de la France ?", ils peuvent répondre "Paris". Mais parfois, ils peuvent se tromper, comme nous tous. Pour les aider à mieux répondre, on peut leur donner accès à des outils comme Wikipedia pour vérifier leurs réponses ou à une calculatrice pour faire des calculs.
+Les modèles de langage sont comme des robots qui apprennent en regardant beaucoup de textes. Ils sont capables de répondre à des questions ou de générer du texte en se basant sur ce qu'ils ont appris. Par exemple, si vous leur demandez "Quelle est la capitale de la France ?", ils peuvent répondre "Paris". Mais parfois, ils peuvent se tromper, comme nous tous. Pour les aider à mieux répondre, on peut leur donner accès à des outils comme l'API de Wikipedia pour vérifier leurs réponses ou à une calculatrice pour faire des calculs.
 
 C'est un peu comme si vous aviez un ami qui est très intelligent mais qui parfois se trompe. Vous pouvez lui donner un livre pour vérifier ses réponses quand il n'est pas sûr. Cela aide votre ami à être plus précis dans ses réponses.
 
