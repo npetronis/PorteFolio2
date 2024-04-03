@@ -6,6 +6,10 @@ body {
     background-image: url("background.png");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(46, 45, 45,0.8); 
+    
+
+    
 }
 /* Animation de fondu à l'entrée */
 @keyframes fadeIn {
@@ -82,6 +86,7 @@ body {
     color:white;
     font-size: 30pt;
     font-weight: 500;
+    color:rgb(0, 174, 255);
 
 }
 p{
@@ -98,4 +103,50 @@ p{
     /* Autres propriétés que vous pouvez ajuster selon vos besoins */
     text-align: center; /* Centre le texte horizontalement */
     line-height: 1.5; /* Ajustez la hauteur de ligne pour l'espacement entre les lignes */
+}
+
+
+.container {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color:white;
+
+}
+
+p {
+    color:white;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.positive-points,
+.negative-points,
+.future-advancements {
+    margin-bottom: 30px;
+}
+
+.background{
+
+ 
+    background-color: #252525; /* Couleur de fond */
+    padding: 20px; /* Marge intérieure pour séparer le texte du bord de l'arrière-plan */
+    width: 50%; /* Largeur de l'arrière-plan */
+    margin: 0 auto; /* Pour centrer l'arrière-plan horizontalement */
+  
+}
+#positif{
+    color:rgb(15, 152, 0);
+}
+#negatif{
+    color:red;
+}
+#future{
+    color:rgb(0, 174, 255);
+}
+.future2{
+    color:rgb(0, 148, 217);
 }
