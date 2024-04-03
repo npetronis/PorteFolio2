@@ -12,7 +12,7 @@ jvais devoir construire un jeu de donnée d'avis avec un grand nombre d'avis pos
 negatifs et quand jvais apprendre mon modele de machine learning, la machine va trouver automatiquement
 comment determiné quels avis son negatifs ou positif, elle va determiné elle meme les regles qui
 permettent de résoudre le probleme
-
+ICIIIIII
 Le deep learning c'est un sous domaine du machine learning qui est arrivé recemment
 basé sur un type d'algorithme qui sont les réseaux de neuronne tres performant sur le text et les images
 le réseau récurrent sur le texte va traiter les mot sequentiellement
